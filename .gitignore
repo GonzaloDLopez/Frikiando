@@ -1,0 +1,21 @@
+# Local and operating-system files
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+*.iml
+
+# Never publish application artifacts, signing material or secrets
+*.aab
+*.apk
+*.jks
+*.keystore
+*.env
+.env.*
+google-services.json
+*service-account*.json
+
+# Raw exports remain outside the curated portfolio
+raw/
+captures/
+private/
